@@ -1,0 +1,3 @@
+.viewer :global(img) {
+  cursor: zoom-in;
+}

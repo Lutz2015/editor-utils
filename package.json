@@ -1,0 +1,53 @@
+{
+  "name": "@hktoday/editor-utils",
+  "version": "1.0.0",
+  "description": "信息安全铁人三项赛跨包共享脚本资源, 本包所存放的脚本, 组件不依赖当前项目, 被设计为可复用在多个不同的项目中.",
+  "type": "module",
+  "files": [
+    "dist/*",
+    "types/*",
+    "components/*"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "check:style": "prettier --check .",
+    "fix:style": "prettier --write .",
+    "check:type": "tsc --noEmit",
+    "check:lint": "eslint --cache ./src/**/*.{vue,ts}",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Lutz2015",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "@toast-ui/editor": "^3.1.7",
+    "@toast-ui/editor-plugin-code-syntax-highlight": "^3.0.0",
+    "@wangeditor/editor": "^5.1.1",
+    "@wangeditor/editor-for-vue": "^5.1.12",
+    "parse-ms": "^3.0.0",
+    "prismjs": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.0",
+    "element-plus": "^2.2.0",
+    "@vueuse/core": "^8.2.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Lutz2015/editor-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lutz2015/editor-utils/issues"
+  },
+  "homepage": "https://github.com/Lutz2015/editor-utils#readme"
+}
