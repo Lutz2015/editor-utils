@@ -1,5 +1,5 @@
 {
-  "name": "@hktoday/editor-utils",
+  "name": "hktoday-editor-utils",
   "version": "1.0.0",
   "description": "信息安全铁人三项赛跨包共享脚本资源, 本包所存放的脚本, 组件不依赖当前项目, 被设计为可复用在多个不同的项目中.",
   "type": "module",
